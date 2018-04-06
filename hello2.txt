@@ -1,35 +1,4 @@
-package controllers;
-
-import managers.FollowersRecommendationManager;
-import managers.TokenManager;
-import play.data.DynamicForm;
-import play.data.Form;
-import play.mvc.Controller;
-import play.mvc.Result;
-import requests.coreservice.FollowersRecommendationRequest;
-import responses.coreservice.FollowersRecommendationResponse;
-import utils.JsonUtil;
-
-public class FollowersRecommendationController extends Controller {
-    public Result recommender() {
-        //DynamicForm requestData = Form.form().bindFromRequest();
-        //String authToken = requestData.get("token");
-         long saveduserid = 10748;
-        //long saveduserid = TokenManager.getUserIdFromToken(authToken);
-        FollowersRecommendationRequest request=new FollowersRecommendationRequest();
-        request.setUserId(saveduserid);
-        FollowersRecommendationResponse response= FollowersRecommendationManager.getRecommendation(request);
-        return ok(JsonUtil.toJson(response)).as("application/json");
-
-        }
-		askfk
-		k;ka;skf;
-		
-		;k;aksf
-		
-		hello2 changed....
-		ajkdkASD
-		LJLASFJK
-		;KLKAS;KF;
-		
-}
+dsajfds[
+jklsdjfkl
+jkkljasfdl;
+jkklasfj'
